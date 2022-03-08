@@ -30,7 +30,14 @@ class Stack {
     }
 
     print() {
-        console.log(this.items.toString());
+        console.log(this.items);
     }
 }
 
+const historico = new Stack();
+
+console.log('[03] - Stack');
+historico.push('/');
+historico.push('https://google.com');
+historico.print();
+console.log('[03] ==================');

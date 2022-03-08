@@ -4,3 +4,5 @@ const tags = [
     'Mario',
     'DevSoutinho',
 ];
+
+new Set(tags);
